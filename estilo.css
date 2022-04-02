@@ -1,7 +1,6 @@
 .header {
   color: #32b9cd;
   border-bottom: 3px solid #32b9cd;
-  /* border: 3px solid yellow; */
 }
 
 body {
@@ -13,7 +12,6 @@ body {
 .container {
   width: 80%;
   margin: auto;
-  /* border: 3px solid red; */
 }
 
 .header .container {
@@ -29,7 +27,6 @@ body {
   width: 600px;
   align-items: center;
   color: #e3b062;
-  /* border: 3px solid blue; */
 }
 
 .agora {
@@ -92,17 +89,9 @@ input {
 }
 
 .btn_2 {
-  align-self: center;
-  font-family: monospace;
-  font-weight: bolder;
-  font-size: 18px;
   color: #e6005a;
   background-color: white;
   border: 3px solid #e6005a;
-  border-radius: 10px;
-  padding: 0;
-  height: 30px;
-  width: 120px;
 }
 
 .banner .card {
@@ -119,22 +108,18 @@ input {
 .card h4 {
   margin-bottom: 0px;
 }
-
 .card .container {
   margin: 0;
   padding: 0;
   justify-content: space-around;
 }
-
 .card h1 {
   margin-top: 25px;
 }
-
 .banner .cadastro {
   height: 430px;
   width: 400px;
 }
-
 .footer {
   display: flex;
   justify-content: center;
@@ -144,16 +129,13 @@ input {
   color: #ffffff;
   font-size: x-large;
 }
-
 .social {
   background-color: #ffffff;
   padding: 50px;
 }
-
 .social .box h4 {
   color: #e6005a;
 }
-
 .social .box p {
   color: #000;
   font-size: 19px;
@@ -188,28 +170,15 @@ input {
   width: 50%;
 }
 
-.equipe .container .box h4 {
-  color: #e3b062;
-  margin: 15px 20px 0 0px;
-}
-
 .equipe .container .box {
   width: 200px;
-  display: flex;
-  flex-wrap: wrap;
+}
+.equipe .container .box h4 {
+  color: #e3b062;
+  text-align: center;
 }
 
-.btn_3 {
-  height: 30px;
-  font-family: monospace;
-  border: 0;
-  border-radius: 10px;
-  font-weight: bolder;
-  font-size: 18px;
-  padding: 0;
-  color: white;
-  background-color: #e6005a;
+.btn_contato {
   width: 200px;
-  align-self: center;
   margin: 40px 0 20px;
 }
