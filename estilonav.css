@@ -172,12 +172,8 @@ input {
 
 .equipe .container .box {
   width: 200px;
-}
-.equipe .container .box h4 {
   color: #e3b062;
-  text-align: center;
 }
-
 .btn_contato {
   width: 200px;
   margin: 40px 0 20px;
